@@ -3,12 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lista de tareas</title>
+  <title>Davante · Lista de tareas</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="bg-glow" aria-hidden="true"></div>
+
   <main class="container">
-    <h1>Lista de tareas</h1>
+    <header class="brand" aria-label="Davante">
+      <div class="logo">
+        <span class="logo-mark" aria-hidden="true"></span>
+        <span class="logo-text">
+          <span class="letter" style="--i:0">D</span><span class="letter" style="--i:1">a</span><span class="letter" style="--i:2">v</span><span class="letter" style="--i:3">a</span><span class="letter" style="--i:4">n</span><span class="letter" style="--i:5">t</span><span class="letter" style="--i:6">e</span>
+        </span>
+      </div>
+      <h1>Lista de tareas</h1>
+    </header>
 
     <form id="task-form" class="task-form">
       <input type="text" id="task-input" placeholder="Escribe una tarea..." autocomplete="off" required>
